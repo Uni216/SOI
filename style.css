@@ -1,0 +1,30 @@
+html{
+    text-align: center;
+    background-image: linear-gradient(red,pink,purple)
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;
+  
+    z-index: 11;
+    cursor: pointer;
+    margin-top: 0px;
+    width: 100%;
+    background-color: lightgrey;
+}
+.links{
+  display: inline;
+    color: white;
+    
+    padding-left: 33px;
+    padding-right: 25px;
+    
+        font-family: 'Racing Sans One', cursive;
+    
+}
+.links:hover{
+    background-color:white;
+    font-size: 25px;
+    text-decoration: underline;
+}
